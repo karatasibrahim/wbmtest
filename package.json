@@ -1,9 +1,11 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "node": "16.14.2",
+  "description": "",   
   "main": "index.js",
+  "engines":{
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node index.js",
     "build": "webpack --config webpack.config.js"
